@@ -11,7 +11,7 @@
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-<img src="https://recordit.co/bzHKXg7H1v" width=250><br>
+<img src="https://recordit.co/bzHKXg7H1v.gif" width=250><br>
 
 ### Notes
 It was a slight challenge to put many things into play and coordinate with each other. 
