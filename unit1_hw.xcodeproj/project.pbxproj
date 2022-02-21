@@ -19,6 +19,9 @@
 		1882E6F127BC75B1001D2DC9 /* MoviesVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882E6F027BC75B1001D2DC9 /* MoviesVIewController.swift */; };
 		1882E6F327BC7FDA001D2DC9 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882E6F227BC7FDA001D2DC9 /* MovieCell.swift */; };
 		1882E6F627BC838A001D2DC9 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1882E6F527BC838A001D2DC9 /* AlamofireImage */; };
+		189898D727C31929006E4E59 /* TryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189898D627C31929006E4E59 /* TryViewController.swift */; };
+		189898D927C326DD006E4E59 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189898D827C326DD006E4E59 /* MovieGridViewController.swift */; };
+		189898DB27C32A93006E4E59 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189898DA27C32A93006E4E59 /* MovieGridCell.swift */; };
 		92FF5DFD27A2330BE2F865D3 /* Pods_unit1_hw_unit1_hwUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68E22457A48316E83ADBE48 /* Pods_unit1_hw_unit1_hwUITests.framework */; };
 		D51C43F46207BB6B6319F15D /* Pods_unit1_hwTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA73EA791F43FD44A7040F33 /* Pods_unit1_hwTests.framework */; };
 		D9E4D5637B82B08DAE8859A9 /* Pods_unit1_hw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD1AFA2344405065E3D63C3 /* Pods_unit1_hw.framework */; };
@@ -57,6 +60,9 @@
 		1882E6E327BC6E39001D2DC9 /* unit1_hwUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unit1_hwUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1882E6F027BC75B1001D2DC9 /* MoviesVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVIewController.swift; sourceTree = "<group>"; };
 		1882E6F227BC7FDA001D2DC9 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		189898D627C31929006E4E59 /* TryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryViewController.swift; sourceTree = "<group>"; };
+		189898D827C326DD006E4E59 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		189898DA27C32A93006E4E59 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		1BE43969740000C704C4DF62 /* Pods-unit1_hwTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit1_hwTests.debug.xcconfig"; path = "Target Support Files/Pods-unit1_hwTests/Pods-unit1_hwTests.debug.xcconfig"; sourceTree = "<group>"; };
 		36211F555923763EDE096885 /* Pods-unit1_hwTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit1_hwTests.release.xcconfig"; path = "Target Support Files/Pods-unit1_hwTests/Pods-unit1_hwTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E213DF486E37DA154C5FC05 /* Pods-unit1_hw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit1_hw.debug.xcconfig"; path = "Target Support Files/Pods-unit1_hw/Pods-unit1_hw.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +137,9 @@
 				1882E6C927BC6E38001D2DC9 /* Assets.xcassets */,
 				1882E6CB27BC6E38001D2DC9 /* LaunchScreen.storyboard */,
 				1882E6CE27BC6E38001D2DC9 /* Info.plist */,
+				189898D627C31929006E4E59 /* TryViewController.swift */,
+				189898D827C326DD006E4E59 /* MovieGridViewController.swift */,
+				189898DA27C32A93006E4E59 /* MovieGridCell.swift */,
 			);
 			path = unit1_hw;
 			sourceTree = "<group>";
@@ -172,7 +181,6 @@
 				1BE43969740000C704C4DF62 /* Pods-unit1_hwTests.debug.xcconfig */,
 				36211F555923763EDE096885 /* Pods-unit1_hwTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -424,8 +432,11 @@
 				1882E6C527BC6E33001D2DC9 /* ViewController.swift in Sources */,
 				1882E6C127BC6E33001D2DC9 /* AppDelegate.swift in Sources */,
 				1882E6C327BC6E33001D2DC9 /* SceneDelegate.swift in Sources */,
+				189898D927C326DD006E4E59 /* MovieGridViewController.swift in Sources */,
+				189898DB27C32A93006E4E59 /* MovieGridCell.swift in Sources */,
 				1882E6F327BC7FDA001D2DC9 /* MovieCell.swift in Sources */,
 				1882E6F127BC75B1001D2DC9 /* MoviesVIewController.swift in Sources */,
+				189898D727C31929006E4E59 /* TryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

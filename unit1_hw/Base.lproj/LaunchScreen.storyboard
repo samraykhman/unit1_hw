@@ -12,12 +12,12 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleAspectFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="now_playing_tabbar_item" translatesAutoresizingMaskIntoConstraints="NO" id="2Jj-Rc-T3e">
-                                <rect key="frame" x="132" y="261" width="150" height="150"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="2Jj-Rc-T3e">
+                                <rect key="frame" x="132" y="260" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -31,7 +31,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="now_playing_tabbar_item" width="21" height="21"/>
+        <image name="launch_image" width="138" height="139"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
